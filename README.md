@@ -1,6 +1,7 @@
 # Pomodoro
 
 Pomodoro is a simple Windows desktop timer application based on the Pomodoro Technique, built with C# and WinForms (.NET 9).
+
 <img width="180" height="171" alt="Снимок экрана 2025-08-15 162549" src="https://github.com/user-attachments/assets/7521c23f-7264-4346-9300-a77d4744e32a" />
 
 ## Description
