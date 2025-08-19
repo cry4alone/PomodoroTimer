@@ -18,11 +18,13 @@ namespace Pomodoro
         private void StartBtn_Click(object sender, EventArgs e)
         {
             timer1.Start();
+            startBtn.Enabled = false;
             _timerService.Start();
         }
 
         private void StopBtn_Click(object sender, EventArgs e)
         {
+            startBtn.Enabled = true;
             _timerService.Pause();
         }
 
@@ -33,6 +35,7 @@ namespace Pomodoro
 
         private void ResetBtn_Click(object sender, EventArgs e)
         {
+            startBtn.Enabled = true;
             _timerService.Reset();
         }
 
